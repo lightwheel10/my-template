@@ -6,7 +6,7 @@ This is a template for a Next.js application with TypeScript, Tailwind CSS, and 
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/your-username/my-template.git
    cd your-repo
    ```
 
