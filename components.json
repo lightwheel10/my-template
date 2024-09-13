@@ -1,0 +1,42 @@
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "style": "new-york",
+  "rsc": true,
+  "tsx": true,
+  "tailwind": {
+    "config": "tailwind.config.ts",
+    "css": "src/app/globals.css",
+    "baseColor": "zinc",
+    "cssVariables": true,
+    "prefix": ""
+  },
+  "aliases": {
+    "components": "@/components",
+    "utils": "@/lib/utils",
+    "ui": "@/components/ui",
+    "lib": "@/lib",
+    "hooks": "@/hooks"
+  },
+  "components": [
+    {
+      "name": "Button",
+      "path": "@/components/ui/button"
+    },
+    {
+      "name": "Card",
+      "path": "@/components/ui/card"
+    },
+    {
+      "name": "Dialog",
+      "path": "@/components/ui/dialog"
+    },
+    {
+      "name": "Select",
+      "path": "@/components/ui/select"
+    },
+    {
+      "name": "Switch",
+      "path": "@/components/ui/switch"
+    }
+  ]
+}
